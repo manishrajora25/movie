@@ -91,9 +91,6 @@ async function searchMovies(e) {
             
         }
     }
-
-
     if (data.results.length === 0) {
         movie.innerHTML = 'No movies found.';
-}
-};
+}};
